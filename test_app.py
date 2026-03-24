@@ -10,4 +10,4 @@ def test_home_status_code():
 def test_home_response_contains_hello_world():
     client = app.test_client()
     response = client.get("/")
-    assert b"Hello World Thavamani Thapasuraman" in response.data
+    assert b"Hello World Druvtej kumar" in response.data
